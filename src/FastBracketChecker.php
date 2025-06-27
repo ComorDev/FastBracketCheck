@@ -6,7 +6,8 @@ class FastBracketChecker
 {
 	public static function isValid($code)
 	{
-		if($code == null || mb_strpos($code, '{') === false){
+		if($code == null ||
+			mb_strpos($code, '{') === false && mb_strpos($code, '}')  === false){
 			return true;
 		}
 		$baseLen = mb_strlen($code, 'UTF-8');

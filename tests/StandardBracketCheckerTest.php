@@ -32,4 +32,8 @@ class StandardBracketCheckerTest extends TestCase {
 	public function testValidString(){
 		$this->assertTrue(StandardBracketChecker::isValid("Hello world!"));
 	}
+
+	public function testInvalidString(){
+		$this->assertFalse(StandardBracketChecker::isValid("}saffsafsaf"));
+	}
 }
