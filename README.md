@@ -31,7 +31,7 @@ The technical task was taken from here: [link](./TS.md)
 | Length / Длина строки      | FastBracketChecker      | StandardBracketChecker  |
 |---------------------------|------------------------|------------------------|
 | **20 million / 20 млн.**   | ~736ms, ~86 MB         | ~3 hours / ~3 часа     |
-| **2 million / 2 млн**      | ~179ms, ~14 MB         | ~50 minutes / ~50 мин  |
+| **2 million / 2 млн.**      | ~179ms, ~14 MB         | ~50 minutes / ~50 мин  |
 | **100 thousand / 100 тыс.**| ~36ms, ~8 MB           | ~45s, 12 MB / ~45с, 12 MB |
 
 > 📊 Benchmark was performed on PHP 8.1.32 using PHPUnit tests.  
