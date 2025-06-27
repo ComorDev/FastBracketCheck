@@ -1,0 +1,23 @@
+{
+    "name": "comordev/fast-bracket-check",
+    "description": "Ultra fast PHP bracket checker for large strings.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ComorDev",
+            "email": "comordev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ComorDev\\FastBracketCheck\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
